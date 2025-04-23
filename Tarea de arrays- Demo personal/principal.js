@@ -20,6 +20,7 @@ import Cl_demoArrays from "./Cl_demoArrays.js";
     I. Ejemplo Map-versión 1<br>
     J Ejemplo Map-versión 2<br>
     K Recorridos tradicionales<br>
+    L ForEach<br>
         `;
     }
     mostrarDemo(){
@@ -36,6 +37,7 @@ import Cl_demoArrays from "./Cl_demoArrays.js";
             case "I":this.demos.ejemploMap1();break;
             case "J":this.demos.ejemploMap2();break;
             case "K":this.demos.recorridoTradicional();break;
+            case "L":this.demos.ejemploForeach();break;
         }
     }
  }

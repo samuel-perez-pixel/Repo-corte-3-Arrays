@@ -202,4 +202,20 @@ export default class Cl_demoArrays {
             d++;
         }while(d<gorras3.length);
     }
+
+    ejemploForeach(){
+        let marcadores=[
+            {marca:"Sharpie",unidades:12,precio:1.50},
+            {marca:"Ofimak",unidades:10,precio:1.00},
+        ];
+        marcadores.forEach((marcadores) => {
+            alert(`
+            ==> Recorrido con foreach
+            ${JSON.stringify(marcadores)}
+            `);
+        });
+        marcadores.forEach(function (item) {
+            alert(`Recorrido con función tradicional: ${JSON.stringify(item)}`);
+          });
+    }
 }
